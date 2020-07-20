@@ -1,0 +1,23 @@
+nav {
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 20px;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+ nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fab {
+    color: white;
+}
