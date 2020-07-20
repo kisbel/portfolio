@@ -1,5 +1,5 @@
-import react from 'react';
-import 
+import React from 'react';
+import './Footer.css';
 
 function Footer () {
     return (
@@ -29,4 +29,4 @@ function Footer () {
     )
 }
 
-export default ModalFooter;
+export default Footer;
