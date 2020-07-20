@@ -1,5 +1,7 @@
 import React from 'react';
 import './Nav.css'
+import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Nav () {
     return (
@@ -9,13 +11,13 @@ function Nav () {
                 <ul>
                     <li>
                         <a href="https://www.linkedin.com/in/kisbel-espinal-39ba6a1a3/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
+                            <FontAwesomeIcon icon={faLinkedin} size="2x" color="white" />
                         </a>
                     </li>
 
                     <li>
                         <a href="https://github.com/kisbel" target="_blank">
-                            <i class="fab fa-github-square fa-2x"></i>
+                            <FontAwesomeIcon icon={faGithubSquare} size="2x" color="white" />
                         </a>
                     </li>
                 </ul>
@@ -24,5 +26,6 @@ function Nav () {
         </>
     )
 }
+
 
 export default Nav;

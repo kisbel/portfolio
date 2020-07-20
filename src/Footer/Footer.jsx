@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+import { faFemale, faBriefcase, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Footer () {
     return (
@@ -8,19 +10,19 @@ function Footer () {
             <ul>
                 <li>
                     <a href="/Users/kespinal/Desktop/coding/portfolio-HTML-site/about.html">
-                        <i class="fas fa-female fa-2x"></i>
+                        <FontAwesomeIcon icon={faFemale} size="2x" color="white" />
                     </a>
                 </li>
 
                 <li>
                     <a href="/portfolio">
-                        <i class="fas fa-briefcase fa-2x"></i>
+                        <FontAwesomeIcon icon={faBriefcase} size="2x" color="white" />
                     </a>
                 </li>
 
                 <li>
                     <a href="/Users/kespinal/Desktop/coding/portfolio-HTML-site/contact.html">
-                        <i class="fas fa-envelope fa-2x"></i>
+                        <FontAwesomeIcon icon={faEnvelope} size="2x" color="white" />
                     </a>
                 </li>
             </ul>
