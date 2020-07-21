@@ -2,32 +2,31 @@ import React from 'react';
 import './Footer.css';
 import { faFemale, faBriefcase, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 function Footer () {
     return (
-        <>
-        <footer>
-            <ul>
-                <li>
-                    <a href="/Users/kespinal/Desktop/coding/portfolio-HTML-site/about.html">
-                        <FontAwesomeIcon icon={faFemale} size="2x" color="white" />
-                    </a>
-                </li>
+            <div class="footerNav">
+                <ul>
+                    <Link to="/about">
+                        <li>
+                            <FontAwesomeIcon icon={faFemale} size="2x" color="white" />
+                        </li>
+                    </Link>
 
-                <li>
-                    <a href="/portfolio">
-                        <FontAwesomeIcon icon={faBriefcase} size="2x" color="white" />
-                    </a>
-                </li>
+                    <Link to="/portfolio">
+                        <li>
+                            <FontAwesomeIcon icon={faBriefcase} size="2x" color="white" />
+                        </li>
+                    </Link>
 
-                <li>
-                    <a href="/Users/kespinal/Desktop/coding/portfolio-HTML-site/contact.html">
-                        <FontAwesomeIcon icon={faEnvelope} size="2x" color="white" />
-                    </a>
-                </li>
-            </ul>
-        </footer>
-        </>
+                    <Link to="/contact">
+                        <li>
+                            <FontAwesomeIcon icon={faEnvelope} size="2x" color="white" />
+                        </li>
+                    </Link>
+                </ul>
+            </div>
     )
 }
 

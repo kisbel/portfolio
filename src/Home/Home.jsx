@@ -1,9 +1,12 @@
 import React from 'react';
 import './Home.css';
+import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer';
 
 function Home() {
     return (
         <>
+        <Nav />
         <div id="home-text">
 
             <div class="text-within">
@@ -23,6 +26,7 @@ function Home() {
             </div>
 
         </div>
+        <Footer />
         </>
     )
 }

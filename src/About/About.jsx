@@ -1,7 +1,7 @@
 import React from 'react';
-import Home from './Home/Home';
-import Nav from './Nav/Nav';
-import Footer from './Footer/Footer';
+// import Home from '../Home/Home';
+// import Nav from '../Nav/Nav';
+// import Footer from '../Footer/Footer';
 import './About.css';
 
 function About () {
