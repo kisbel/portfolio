@@ -1,9 +1,15 @@
 import React from 'react';
 import './Contact.css';
+import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer';
 
 function ContactPage () {
     return (
-        <h1>contact</h1>
+        <>
+            <Nav />
+            <div id="ph1">contact</div>
+            <Footer />
+        </>
     )
 }
 

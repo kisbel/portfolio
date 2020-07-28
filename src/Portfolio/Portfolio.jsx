@@ -1,9 +1,15 @@
 import React from 'react';
 import './Portfolio.css';
+import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer';
 
 function Portfolio () {
     return (
-        <h1>portfolio</h1>
+        <>
+        <Nav />
+        <div id="ph1">my work</div>
+        <Footer />
+        </>
     )
 }
 
