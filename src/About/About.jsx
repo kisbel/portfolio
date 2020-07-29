@@ -11,7 +11,7 @@ function About () {
             <div id="ph1">about kisbel</div>
 
             <div id="kis-info">
-                <img src={kispic} alt="picture of kisbel"></img>
+                <img src={kispic} alt="picture of kisbel" />
                 <br />
                 <p1>Hi! I'm Kisbel. I recently graduated from Wyncode Academy's Full Stack Web Development program.
                 I have experience using React, Javascript, HTML, CSS (to name a few) - if you'll click on the LinkedIn, you'll see the variety

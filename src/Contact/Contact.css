@@ -59,6 +59,8 @@ text-align: center;
 #form-area {
     margin-top: 3%;
     color: white;
+    background-color: #9a8e96;
+    padding: 15px;
 }
 
 label {
